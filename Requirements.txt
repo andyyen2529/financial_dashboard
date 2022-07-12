@@ -1,4 +1,4 @@
-# python == 3.8.3
+# python == 3.8.3 64bit
 streamlit == 1.10.0
 prophet == 1.1
 yfinance == 0.1.72
