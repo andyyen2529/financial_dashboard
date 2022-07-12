@@ -58,7 +58,7 @@ future = m.make_future_dataframe(periods=period)
 forecast = m.predict(future)
 
 # Show and plot forecast
-st.subheader('Forecast data')
+st.subheader('預測資料 (Forecast data)')
 st.write(forecast.tail())
     
 st.write(f'Forecast plot for {n_years} years')
