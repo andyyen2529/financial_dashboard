@@ -1,6 +1,8 @@
 # python == 3.8.3 64bit
 streamlit == 1.10.0
-prophet == 1.1
+#prophet == 1.1 
+# error can't find input because the prophet files were installed in different site-packages and other reasons
+# trying using conda instead of virtualenv if failed "conda install -c conda-forge prophet" can fix this error
 yfinance == 0.1.72
 plotly == 5.9.0
 
