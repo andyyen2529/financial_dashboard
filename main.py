@@ -22,7 +22,7 @@ st.text('本頁為透過 FaceBook 開發之 prophet 套件做預測')
 period = n_years * 365
 
 
-@st.cache
+@st.cache(allow_output_mutation=True)
 def load_data(ticker):
     data = yf.download(ticker, START, TODAY) 
 	# Date, Open, High, Low, Close, Adj Close, Volume
